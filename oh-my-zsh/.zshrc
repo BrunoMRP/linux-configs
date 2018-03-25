@@ -96,3 +96,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias gsuon='xhost si:localuser:root'
+alias gsuoff='xhost -si:localuser:root'
+

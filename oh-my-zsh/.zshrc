@@ -71,6 +71,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/projects/gocode
+export PATH=$PATH:$GOPATH/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -98,4 +101,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gsuon='xhost si:localuser:root'
 alias gsuoff='xhost -si:localuser:root'
-
